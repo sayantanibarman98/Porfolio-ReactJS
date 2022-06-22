@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
-import PrtImg from '../Portfolio/portImg.png'
+import PrtImg from "../Portfolio/portImg.png";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 
