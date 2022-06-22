@@ -7,7 +7,7 @@ import "./index.scss";
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    const [portfolio, setPortfolio] = useState([]);
+    const [portfolio] = useState([]);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -19,9 +19,7 @@ const Portfolio = () => {
         }
     });
 
-    /*useEffect(() => {
-        getPortfolio();
-    }, []);*/
+    
 
     
 
